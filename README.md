@@ -1,6 +1,6 @@
 # Projeto de Automação com Python
-Código feito a carater de estudo sobre automação com python
+<p>Código feito a carater de estudo sobre automação com python<p/>
 
-#Libs usadas:
--> pandas - para importar a base de dados em csv
--> pyautohui - para automatizar comandos
+# Libs usadas:
+<p> pandas - para importar a base de dados em csv <p/>
+<p> pyautohui - para automatizar comandos <p/>
