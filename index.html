@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <h2>Lista de Produtos</h2>
+        <input id="code" placeholder="código" type="text">
+        <input id="brand" placeholder="marca" type="text">
+        <input id="type" placeholder="tipo" type="text">
+        <input id="category" placeholder="categoria" type="text">
+        <input id="price" placeholder="preço" type="text">
+        <input id="cost" placeholder="custo" type="text">
+        <input id="obs" placeholder="observação" type="text">
+        <div class="bt-session">
+            <button onclick="sendForm()">Enviar</button>
+            <button onclick="clearForm()">Limpar</button>
+        </div>
+    </div>
+    <div class="table">
+        <table>
+            <tr>
+              <td>Código</td>
+              <td>Marca</td>
+              <td>Tipo</td>
+              <td>Categoria</td>
+              <td>Preço</td>
+              <td>Custo</td>
+              <td>Observação</td>
+            </tr>
+            <tr>
+              <td id="codeValue">MOLO000251</td >
+              <td id="brandValue">Logitech</td >
+              <td id="typeValue">Mouse</td >
+              <td id="categoryValue">1</td >
+              <td id="priceValue">25.95</td >
+              <td id="costValue">6.50</td >
+              <td id="obsValue">Olhar estoque</td>
+            </tr>
+          </table>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
